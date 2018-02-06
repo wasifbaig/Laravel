@@ -21,12 +21,9 @@ composer install
 4. Create tables in database and user table fill with default user
 php artisan migrate:fresh --seed
 
-5. set these constants in .env file
-##### facebook Api
+5. Set these facebook Api constants in .env file
 FB_API_ID = 
 FB_APP_SECRET = 
-####
-
 
 6. Start Application server
 php artisan serve
@@ -35,11 +32,11 @@ php artisan serve
 Application Pages
 -------------------------
 
-call losthost:8000/login
+losthost:8000/login
 It will give you link to login from facebook.
 
-call losthost:8000/cronjob
+losthost:8000/cronjob
 It will run your cron fucntion
 
-call losthost:8000/oddity
+losthost:8000/oddity
 it will show you content with filter
