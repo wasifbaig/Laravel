@@ -10,33 +10,32 @@ It provides a interface to filter data.
 --------------------------------
 
 
-1. Install Laravel
-composer global require "laravel/installer"
 
-2. Download project dependencies
+
+2. Download project dependencies <br />
 composer install
 
 3. Create database with name "oddity" 
 
-4. Create tables in database and user table fill with default user
+4. Create tables in database and user table fill with default user <br />
 php artisan migrate:fresh --seed
 
-5. Set these facebook Api constants in .env file
-FB_API_ID = 
-FB_APP_SECRET = 
+5. Set these facebook Api constants in .env file <br />
+FB_API_ID =  <br />
+FB_APP_SECRET =  <br />
 
-6. Start Application server
+6. Start Application server <br />
 php artisan serve
 
 
 Application Pages
 -------------------------
 
-losthost:8000/login
+losthost:8000/login <br />
 It will give you link to login from facebook.
 
-losthost:8000/cronjob
+losthost:8000/cronjob <br />
 It will run your cron fucntion
 
-losthost:8000/oddity
+losthost:8000/oddity <br />
 it will show you content with filter
